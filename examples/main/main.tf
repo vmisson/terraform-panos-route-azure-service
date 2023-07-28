@@ -30,7 +30,7 @@ variable "services" {
 }
 
 module "routes-azure" {
-  source         = "./modules/panos_static_route_azure_service"
+  source         = "vmisson/route-azure-service/panos"
   for_each       = toset(var.services)
   interface      = var.interface
   next_hop       = var.next_hop

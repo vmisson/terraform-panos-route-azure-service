@@ -25,9 +25,9 @@ variable "metric" {
 }
 
 variable "optimized" {
-    description = "Use optimized count"
-    type = bool
-    default = true
+  description = "Use optimized count"
+  type        = bool
+  default     = true
 }
 
 variable "bfd_profile" {
