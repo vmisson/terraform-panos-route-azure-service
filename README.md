@@ -1,7 +1,7 @@
-# Palo Alto Route Azure Service
+# PAN-OS Route Azure Service
 [![MIT License](https://img.shields.io/badge/license-MIT-orange.svg)](LICENSE) [![TF Registry](https://img.shields.io/badge/terraform-registry-blue.svg)](https://registry.terraform.io/modules/azurerm/resources/azure/latest/submodules/network_interface)
 
-Terraform module to create and manage a Palo Alto routes to access Azure services.
+Terraform module to create and manage a PAN-OS routes to access Azure services.
 
 ## Example
 
